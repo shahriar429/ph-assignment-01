@@ -40,3 +40,31 @@ header nav{
 .txt-dark{
     color: #252432;
 }
+
+/* action part*/
+.action{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 120px;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: start;
+}
+.content h2{
+    font-weight: bold;
+    font-size: 42px;
+}
+.content p{
+    font-size: 25px;
+}
+.action-img img{
+    height: 220px;
+    width: 350px;
+    border-radius: 30px;
+}
+
