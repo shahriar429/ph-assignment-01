@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #f5f8ff;
+}
 /* header section */
 header{
     background-image: url(./Assets/Hero-bg.png);
@@ -94,4 +97,65 @@ header nav{
 .sub-title{
     color: #252432;
     font-size: 20px;
+}
+/* get in touch */
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 50px; */
+    margin: 80px 120px 0px 120px;
+}
+.get-in-touch h2{
+    font-weight: bold;
+    font-size: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+form label{
+    font-weight: 600;
+}
+form input{
+    height: 60px;
+    width: 400px;
+    border: 1px solid #818089;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+form textarea{
+    height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* footer  */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 400px;
+    gap: 20px;
+    background-color: white;
+}
+footer h2{
+    font-size: 100px;
+}
+footer p{
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    gap: 50px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul a{
+    text-decoration: none;
+    color: #252432;
 }
