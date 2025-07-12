@@ -68,3 +68,30 @@ header nav{
     border-radius: 30px;
 }
 
+/* productive user */
+.productive-user{
+    background-color: #e5e7ff;
+    padding: 40px 140px;
+    margin: 80px 120px;
+    border-radius: 20px;
+    text-align: center;
+}
+.productive-user h2{
+    font-weight: bold;
+    font-size: 35px;
+}
+.user-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.num{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
+.sub-title{
+    color: #252432;
+    font-size: 20px;
+}
